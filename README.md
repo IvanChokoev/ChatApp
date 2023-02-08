@@ -22,6 +22,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Step by step instructions
+
+1. Creating the Database in Firebase
+
+I created an account in Firebase and created a new project called "FireChatApp". After that I selected a datastore. Firebase gives us a couple of options: Firestore Database or Realtime Database. FOr this project I selected the realtime option. I selected the region closest to my location in the settings
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
