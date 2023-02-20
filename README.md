@@ -22,11 +22,9 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Step by step instructions
+The Angular App will connect to the backend Database from Firebase using the firebase SDK. The Firebase SDK will recognise that the app is using the realtime backend and so will automatically use WebSockets for communication between the Angular app and the Firebase backend.
 
-1. Creating the Database in Firebase
-
-I created an account in Firebase and created a new project called "FireChatApp". After that I selected a datastore. Firebase gives us a couple of options: Firestore Database or Realtime Database. FOr this project I selected the realtime option. I selected the region closest to my location in the settings
+I have left the APIKeys so that anyone can download and run the code. Obviously if it was in production those keys would be strictly confidential. I would advise you to play around and use your own firebase APIKeys for the App and replace them with the ones already in the project.
 
 ## Further help
 
